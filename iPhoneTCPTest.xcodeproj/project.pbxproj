@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC533D016DD977D00F4C041 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC533CF16DD977D00F4C041 /* UIKit.framework */; };
+		FAC533D216DD977D00F4C041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC533D116DD977D00F4C041 /* Foundation.framework */; };
+		FAC533D416DD977D00F4C041 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC533D316DD977D00F4C041 /* CoreGraphics.framework */; };
+		FAC533DA16DD977D00F4C041 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAC533D816DD977D00F4C041 /* InfoPlist.strings */; };
+		FAC533DC16DD977D00F4C041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC533DB16DD977D00F4C041 /* main.m */; };
+		FAC533E016DD977D00F4C041 /* iPhoneTCPTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC533DF16DD977D00F4C041 /* iPhoneTCPTestAppDelegate.m */; };
+		FAC533E316DD977D00F4C041 /* iPhoneTCPTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC533E216DD977D00F4C041 /* iPhoneTCPTestViewController.m */; };
+		FAC533E616DD977D00F4C041 /* iPhoneTCPTestViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC533E416DD977D00F4C041 /* iPhoneTCPTestViewController_iPhone.xib */; };
+		FAC533E916DD977D00F4C041 /* iPhoneTCPTestViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC533E716DD977D00F4C041 /* iPhoneTCPTestViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAC533CB16DD977D00F4C041 /* iPhoneTCPTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneTCPTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC533CF16DD977D00F4C041 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAC533D116DD977D00F4C041 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAC533D316DD977D00F4C041 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAC533D716DD977D00F4C041 /* iPhoneTCPTest-Info.plist */ = {isa = PBXFileReference; path = "iPhoneTCPTest-Info.plist"; sourceTree = "<group>"; };
+		FAC533D916DD977D00F4C041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAC533DB16DD977D00F4C041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAC533DD16DD977D00F4C041 /* iPhoneTCPTest-Prefix.pch */ = {isa = PBXFileReference; path = "iPhoneTCPTest-Prefix.pch"; sourceTree = "<group>"; };
+		FAC533DE16DD977D00F4C041 /* iPhoneTCPTestAppDelegate.h */ = {isa = PBXFileReference; path = iPhoneTCPTestAppDelegate.h; sourceTree = "<group>"; };
+		FAC533DF16DD977D00F4C041 /* iPhoneTCPTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneTCPTestAppDelegate.m; sourceTree = "<group>"; };
+		FAC533E116DD977D00F4C041 /* iPhoneTCPTestViewController.h */ = {isa = PBXFileReference; path = iPhoneTCPTestViewController.h; sourceTree = "<group>"; };
+		FAC533E216DD977D00F4C041 /* iPhoneTCPTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneTCPTestViewController.m; sourceTree = "<group>"; };
+		FAC533E516DD977D00F4C041 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iPhoneTCPTestViewController_iPhone.xib; sourceTree = "<group>"; };
+		FAC533E816DD977D00F4C041 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iPhoneTCPTestViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC533C816DD977D00F4C041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC533D016DD977D00F4C041 /* UIKit.framework in Frameworks */,
+				FAC533D216DD977D00F4C041 /* Foundation.framework in Frameworks */,
+				FAC533D416DD977D00F4C041 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC533C016DD977D00F4C041 = {
+			isa = PBXGroup;
+			children = (
+				FAC533D516DD977D00F4C041 /* iPhoneTCPTest */,
+				FAC533CE16DD977D00F4C041 /* Frameworks */,
+				FAC533CC16DD977D00F4C041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC533CC16DD977D00F4C041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC533CB16DD977D00F4C041 /* iPhoneTCPTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC533CE16DD977D00F4C041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC533CF16DD977D00F4C041 /* UIKit.framework */,
+				FAC533D116DD977D00F4C041 /* Foundation.framework */,
+				FAC533D316DD977D00F4C041 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAC533D516DD977D00F4C041 /* iPhoneTCPTest */ = {
+			isa = PBXGroup;
+			children = (
+				FAC533DE16DD977D00F4C041 /* iPhoneTCPTestAppDelegate.h */,
+				FAC533DF16DD977D00F4C041 /* iPhoneTCPTestAppDelegate.m */,
+				FAC533E116DD977D00F4C041 /* iPhoneTCPTestViewController.h */,
+				FAC533E216DD977D00F4C041 /* iPhoneTCPTestViewController.m */,
+				FAC533E416DD977D00F4C041 /* iPhoneTCPTestViewController_iPhone.xib */,
+				FAC533E716DD977D00F4C041 /* iPhoneTCPTestViewController_iPad.xib */,
+				FAC533D616DD977D00F4C041 /* Supporting Files */,
+			);
+			path = iPhoneTCPTest;
+			sourceTree = "<group>";
+		};
+		FAC533D616DD977D00F4C041 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAC533D716DD977D00F4C041 /* iPhoneTCPTest-Info.plist */,
+				FAC533D816DD977D00F4C041 /* InfoPlist.strings */,
+				FAC533DB16DD977D00F4C041 /* main.m */,
+				FAC533DD16DD977D00F4C041 /* iPhoneTCPTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC533CA16DD977D00F4C041 /* iPhoneTCPTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC533EC16DD977D00F4C041 /* Build configuration list for PBXNativeTarget "iPhoneTCPTest" */;
+			buildPhases = (
+				FAC533C716DD977D00F4C041 /* Sources */,
+				FAC533C816DD977D00F4C041 /* Frameworks */,
+				FAC533C916DD977D00F4C041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneTCPTest;
+			productName = iPhoneTCPTest;
+			productReference = FAC533CB16DD977D00F4C041 /* iPhoneTCPTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC533C216DD977D00F4C041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FAC533C516DD977D00F4C041 /* Build configuration list for PBXProject "iPhoneTCPTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAC533C016DD977D00F4C041;
+			productRefGroup = FAC533CC16DD977D00F4C041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC533CA16DD977D00F4C041 /* iPhoneTCPTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC533C916DD977D00F4C041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC533DA16DD977D00F4C041 /* InfoPlist.strings in Resources */,
+				FAC533E616DD977D00F4C041 /* iPhoneTCPTestViewController_iPhone.xib in Resources */,
+				FAC533E916DD977D00F4C041 /* iPhoneTCPTestViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC533C716DD977D00F4C041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC533DC16DD977D00F4C041 /* main.m in Sources */,
+				FAC533E016DD977D00F4C041 /* iPhoneTCPTestAppDelegate.m in Sources */,
+				FAC533E316DD977D00F4C041 /* iPhoneTCPTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAC533D816DD977D00F4C041 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC533D916DD977D00F4C041 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAC533E416DD977D00F4C041 /* iPhoneTCPTestViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC533E516DD977D00F4C041 /* en */,
+			);
+			name = iPhoneTCPTestViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FAC533E716DD977D00F4C041 /* iPhoneTCPTestViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC533E816DD977D00F4C041 /* en */,
+			);
+			name = iPhoneTCPTestViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC533EA16DD977D00F4C041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC533EB16DD977D00F4C041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC533ED16DD977D00F4C041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneTCPTest/iPhoneTCPTest-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneTCPTest/iPhoneTCPTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAC533EE16DD977D00F4C041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneTCPTest/iPhoneTCPTest-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneTCPTest/iPhoneTCPTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC533C516DD977D00F4C041 /* Build configuration list for PBXProject "iPhoneTCPTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC533EA16DD977D00F4C041 /* Debug */,
+				FAC533EB16DD977D00F4C041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC533EC16DD977D00F4C041 /* Build configuration list for PBXNativeTarget "iPhoneTCPTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC533ED16DD977D00F4C041 /* Debug */,
+				FAC533EE16DD977D00F4C041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC533C216DD977D00F4C041 /* Project object */;
+}
